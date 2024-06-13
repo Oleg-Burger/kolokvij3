@@ -1,0 +1,73 @@
+body{
+  background-color: bisque;
+}
+
+h1{
+
+font-family: "OlegEugenBurger" ;
+src: url("materijali_za_završni/1_sekcija/font/OlegEugenBurger.ttf");
+  font-size: 60px;
+  color:darkred;
+
+
+
+
+
+}
+
+h3{
+  color: darkred;
+  font-size: 30px;
+}
+
+p {
+
+
+  color: darkred;
+  font-size: 22.5px;
+
+
+  }
+
+
+    h2{
+      font-size: 40px;
+      color: darkred;
+
+
+    }
+ h4{color:darkred;
+   font-size: 30px;
+}
+   .navbar {
+  width: 100%;
+  background-color: red;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%;
+
+}
+
+.navbar a:hover {
+  background-color: darkred;
+}
+
+.navbar a.active {
+  background-color: darkred;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 50%;
+    text-align: left;
+  }
+}
